@@ -6,7 +6,7 @@ import MySQLdb as mdb
 import sys
 
 try:
-   con = mdb.connect('10.32.165.187', 'irm_rw', 'fdpirm', 'irm');
+   con = mdb.connect("host-ip", 'user', 'password', 'db');
 
    cur = con.cursor()
 
